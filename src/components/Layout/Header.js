@@ -5,28 +5,15 @@ import Button from "../common/Button";
 const navLinks = [
   { id: "about", label: "About", href: "/about" },
   { id: "feature", label: "Feature", href: "/" },
-  { id: "services", label: "Services", href: "/" },
+  { id: "services", label: "Services", href: "/services" },
 ];
 
 const Header = () => {
-  const [scrollActive, setScrollActive] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollActive(window.scrollY > 20);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <>
       <header
-        className={
-          "fixed top-0 w-full z-30 bg-neutral-900 transition-all " +
-          (scrollActive ? "shadow-lg shadow-black/30 pt-0" : "pt-4")
-        }
-      >
+        className={"absolute top-0 w-full z-30 bg-transparent transition-all"}>
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center text-neutral-100 font-bold">
             <Link href="/">

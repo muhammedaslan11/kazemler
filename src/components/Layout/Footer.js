@@ -4,23 +4,18 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-900 pt-40 text-gray-300 border-t pb-20">
-      <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-12 gap-10">
+    <footer className="relative pt-40 text-gray-300 border-t pb-20 overflow-hidden" style={{ backgroundImage: 'url(/images/plazas.jpg)' }}>
+      <div className="absolute inset-0 bg-black/85" />
+      <div className="relative max-w-screen-xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-12 gap-10">
         <div className="sm:col-span-5 flex flex-col">
-          <h2 className="text-3xl font-extrabold text-white mb-3 tracking-wide">
+          <h2 className="text-3xl font-extrabold text-white mb-3 tracking-wide shadow-lg">
             <Link href="/">
               <picture>
-                <img
-                  src="/images/kazemler_logo.png"
-                  alt="Logo"
-                  className="object-cover"
-                  width={200}
-                  height={50}
-                />
+                <img src="/images/kazemler_logo.png" alt="Logo" className="object-cover shadow-lg" width={200} height={50} />
               </picture>
             </Link>
           </h2>
-          <p className="text-sm leading-relaxed mb-6">
+          <p className="text-sm leading-relaxed mb-6 shadow-lg">
             Operating in the fields of consulting, production, and trade, KAZEMLER is a pioneer in the industry with strong partnerships and an innovative approach.
           </p>
           <div className="flex gap-3">
@@ -37,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:col-span-3">
-          <h3 className="text-xl font-semibold text-white mb-4">Corporate</h3>
+          <h3 className="text-xl font-semibold text-white mb-4 shadow-lg">Corporate</h3>
           <ul className="space-y-3 text-sm">
             <li className="hover:text-blue-500 transition cursor-pointer">About Us</li>
             <li className="hover:text-blue-500 transition cursor-pointer">Contact</li>
@@ -46,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:col-span-4">
-          <h3 className="text-xl font-semibold text-white mb-4">Our Services</h3>
+          <h3 className="text-xl font-semibold text-white mb-4 shadow-lg">Our Services</h3>
           <ul className="space-y-3 text-sm">
             <li className="hover:text-blue-500 transition cursor-pointer">Consulting</li>
             <li className="hover:text-blue-500 transition cursor-pointer">Production</li>
@@ -55,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-10 border-t border-neutral-700 pt-5 text-center text-sm">
+      <div className="relative mt-10 border-t pt-5 text-center text-sm shadow-lg">
         © {new Date().getFullYear()} <strong className="text-white">KAZEMLER</strong>. All rights reserved.
       </div>
     </footer>

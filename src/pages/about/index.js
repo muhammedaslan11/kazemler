@@ -1,34 +1,53 @@
-import React from 'react'
-import SeoHead from '../../components/SeoHead'
-import Layout from '../../components/Layout/Layout'
+import React from 'react';
+import SeoHead from '../../components/SeoHead';
+import Layout from '../../components/Layout/Layout';
 
 const About = () => {
     return (
         <>
             <SeoHead title={'Hakkımızda | KAZEMLER'} />
             <Layout>
-                <div className='max-w-5xl lg:mx-auto lg:mr-auto px-4 py-12 md:mx-6 md:mr-6 sm:mx-5 sm:mr-5 xs:mr-5'>
-                    <h1 className='text-4xl font-bold text-center mb-10'>About Us | Who we are?</h1>
-                    <div className='flex items-center text-lg'>
-                        <div>
-                            <p className='leading-8 mb-5 text-xl'>
-                                We provide a seamless and enjoyable experience
-                                for all your needs. Explore unique features
-                                with <strong className='font-bold'>KAZEMLER</strong>.
-                            </p>
-                            <p className='leading-8 text-xl'>
-                                Explore our features to boost
-                                your business with powerful solutions tailored
-                                to your needs. Operating in the fields of
-                                consulting, production, and trade, <strong className='font-bold'>KAZEMLER</strong> is
-                                a pioneer in the industry with strong partnerships and an innovative approach.
-                            </p>
+                <div className='relative overflow-hidden text-white py-20 px-6'>
+                    <div className='absolute inset-0 opacity-10 bg-cover bg-center' style={{ backgroundImage: 'url(/images/plazas.jpg)' }}></div>
+                    <div className='relative max-w-5xl mx-auto text-center'>
+                        <br />
+                        <br />
+                        <br />
+                        <h1 className='text-5xl font-extrabold my-6 animate-fade-in'>Who We Are</h1>
+                        <p className='text-xl leading-8 mb-10 animate-slide-up'>At <strong>KAZEMLER</strong>, we offer a seamless and enjoyable experience tailored to your needs. We specialize in consulting, production, and trade, paving the way for innovation and excellence in the industry.</p>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 text-left animate-slide-up'>
+                            <div>
+                                <h2 className='text-3xl font-bold mb-4'>Our Mission</h2>
+                                <p className='text-lg leading-7'>To empower businesses with tailored solutions that foster growth, innovation, and lasting success. We prioritize quality, integrity, and strong partnerships.</p>
+                                <p className='text-lg leading-7'>To empower businesses with tailored solutions that foster growth, innovation, and lasting success. We prioritize quality, integrity, and strong partnerships.</p>
+                                <p className='text-lg leading-7'>To empower businesses with tailored solutions that foster growth, innovation, and lasting success. We prioritize quality, integrity, and strong partnerships.</p>
+                                <p className='text-lg leading-7'>To empower businesses with tailored solutions that foster growth, innovation, and lasting success. We prioritize quality, integrity, and strong partnerships.</p>
+                                <p className='text-lg leading-7'>To empower businesses with tailored solutions that foster growth, innovation, and lasting success. We prioritize quality, integrity, and strong partnerships.</p>
+                            </div>
+                            <div>
+                                <h2 className='text-3xl font-bold mb-4'>Our Vision</h2>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                                <p className='text-lg leading-7'>To be a global leader in the consulting, production, and trade sectors, known for our innovative approach and impactful solutions.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </Layout>
         </>
-    )
-}
+    );
+};
 
-export default About
+export default About;

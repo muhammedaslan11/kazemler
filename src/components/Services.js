@@ -54,13 +54,13 @@ const Services = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Choose Your Plan
+              Services
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the package that is best for you and explore it happily and cheerfully.
+              You can review the services we offer
             </motion.p>
           </ScrollAnimationWrapper>
 
@@ -92,7 +92,7 @@ const Services = () => {
                     ))}
                   </ul>
                   <div className="flex flex-col w-full justify-center mb-7 flex-none mt-5 lg:mt-12">
-                    <Button href={plan.href}>Select</Button>
+                    <Button href={plan.href}>Detail</Button>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
