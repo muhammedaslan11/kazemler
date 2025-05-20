@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Strategic business consulting",
-  "Custom manufacturing solutions",
-  "Import & export operations",
-  "Market research and analysis services",
+  "Stratejik iş danışmanlığı",
+  "Özel üretim çözümleri",
+  "İthalat ve ihracat operasyonları",
+  "Pazar araştırması ve analiz hizmetleri",
 ];
 
 const Feature = () => {
@@ -19,36 +19,34 @@ const Feature = () => {
       className="max-w-screen-xl mt-8 mb-12 sm:mt-14 sm:mb-16 px-6 sm:px-8 lg:px-16 mx-auto text-white"
       id="feature"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-12 sm:py-16 my-12">
-        <ScrollAnimationWrapper className="flex w-full justify-center sm:justify-end">
-          <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
+      <div className="flex flex-col items-center py-12 sm:py-16 space-y-10">
+        <ScrollAnimationWrapper>
+          <motion.div className="w-full flex justify-center" variants={scrollAnimation}>
             <picture>
               <img
-                src="/images/Illustration2.png"
-                alt="Feature Illustration"
-                width="508"
-                height="414"
-                style={{ width: "100%", height: "auto" }}
+                src="/images/kazemler_logo.png"
+                alt="Kazemler"
+                style={{ width: "300px", height: "auto" }}
               />
             </picture>
-
           </motion.div>
         </ScrollAnimationWrapper>
+
         <ScrollAnimationWrapper>
           <motion.div
-            className="flex flex-col items-start sm:items-end justify-center ml-auto w-full lg:w-9/12"
+            className="flex flex-col items-center text-center w-full max-w-3xl"
             variants={scrollAnimation}
           >
             <h3 className="text-4xl lg:text-5xl font-semibold leading-relaxed text-white mb-4">
-              We Provide Many Features You Can Use
+              Size Sunabileceğimiz Birçok Özelliğimiz Var
             </h3>
             <p className="text-lg sm:text-xl text-gray-400 mb-8">
-              Explore our features to boost your business with powerful solutions tailored to your needs.
+              İhtiyaçlarınıza özel güçlü çözümlerle işinizi büyütebileceğiniz özelliklerimizi keşfedin.
             </p>
-            <ul className="text-gray-300 self-start list-inside ml-8 space-y-4">
+            <ul className="text-gray-300 list-inside space-y-4 text-left">
               {features.map((feature, index) => (
                 <motion.li
-                  className="relative circle-check custom-list text-lg font-medium"
+                  className="relative text-lg font-medium"
                   custom={{ duration: 2 + index }}
                   variants={scrollAnimation}
                   key={feature}

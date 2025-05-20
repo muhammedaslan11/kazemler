@@ -4,6 +4,7 @@ import Button from "../common/Button";
 
 const navLinks = [
   { id: "about", label: "About", href: "/about" },
+  { id: "catalogs", label: "Catalogs", href: "/catalogs" },
   { id: "services", label: "Services", href: "/services" },
 ];
 
@@ -21,8 +22,7 @@ const Header = () => {
                   src="/images/kazemler_logo.png"
                   alt="Logo"
                   className="object-cover"
-                  width={200}
-                  height={50}
+                  style={{ width: "300px", height: "auto" }}
                 />
               </picture>
             </Link>

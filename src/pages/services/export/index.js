@@ -20,24 +20,19 @@ const ExportService = () => {
                         </p>
                         <img src='/images/busnss.jpg' alt='Export Service' className='w-full h-auto rounded-2xl shadow-lg mb-8' />
                         <p className='leading-8 text-lg text-gray-200'>
-                            We offer customized website solutions tailored to your business needs. Let your online presence shine with modern, responsive designs. Our team provides professional consulting to help your cosmetic business thrive, from brand development to market analysis. Elevate your brand visibility with our comprehensive product promotion strategies, designed to reach a global audience.
+                            Companies with an Export Department are the fastest, most effective and reliable solution to increase your international connections and customer portfolio for overseas sales in a short period of 6 months.
                         </p>
                         <br />
-                        <p className='leading-8 text-lg text-gray-200'>
-                            We offer customized website solutions tailored to your business needs. Let your online presence shine with modern, responsive designs. Our team provides professional consulting to help your cosmetic business thrive, from brand development to market analysis. Elevate your brand visibility with our comprehensive product promotion strategies, designed to reach a global audience.
-                        </p>
+                        <br />
                         <br />
                         <p className='leading-8 text-lg text-gray-200'>
-                            We offer customized website solutions tailored to your business needs. Let your online presence shine with modern, responsive designs. Our team provides professional consulting to help your cosmetic business thrive, from brand development to market analysis. Elevate your brand visibility with our comprehensive product promotion strategies, designed to reach a global audience.
+                            If you have an export department or export personnel and want to increase your offers, this support is for you!
                         </p>
                         <br />
-                        <p className='leading-8 text-lg text-gray-200'>
-                            We offer customized website solutions tailored to your business needs. Let your online presence shine with modern, responsive designs. Our team provides professional consulting to help your cosmetic business thrive, from brand development to market analysis. Elevate your brand visibility with our comprehensive product promotion strategies, designed to reach a global audience.
-                        </p>
+                        <br />
                         <br />
                         <p className='leading-8 text-lg text-gray-200'>
-                            We offer customized website solutions tailored to your business needs. Let your online presence shine with modern, responsive designs. Our team provides professional consulting to help your cosmetic business thrive, from brand development to market analysis. Elevate your brand visibility with our comprehensive product promotion strategies, designed to reach a global audience.
-                        </p>
+                            Our goal is to find new connections and customers in the target countries determined in the target market research conducted based on needs and performance analysis.                        </p>
                     </div>
                 </div>
             </Layout>

@@ -5,6 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   const corporateLinks = [
     { label: "About Us", href: "/about" },
+    { label: "Catalogs", href: "/catalogs" },
     { label: "Contact", href: "/contact" },
     { label: "Privacy & KVKK", href: "/privacy" },
   ];
@@ -44,19 +45,19 @@ const Footer = () => {
           <div className="flex gap-3">
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
+              className="p-2 rounded-lg bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="facebook" size={24} color="#fff" />
             </a>
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
+              className="p-2 rounded-lg bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="instagram" size={24} color="#fff" />
             </a>
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
+              className="p-2 rounded-lg bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="x" size={24} color="#fff" />
             </a>
