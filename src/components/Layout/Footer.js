@@ -44,19 +44,19 @@ const Footer = () => {
           <div className="flex gap-3">
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-blue-500 hover:text-white transition"
+              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="facebook" size={24} color="#fff" />
             </a>
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-blue-500 hover:text-white transition"
+              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="instagram" size={24} color="#fff" />
             </a>
             <a
               href="#"
-              className="p-2 rounded-full bg-black shadow-md hover:bg-blue-500 hover:text-white transition"
+              className="p-2 rounded-full bg-black shadow-md hover:bg-[#DF9958] hover:text-white transition"
             >
               <Icon iconName="x" size={24} color="#fff" />
             </a>
@@ -70,7 +70,7 @@ const Footer = () => {
           <ul className="space-y-3 text-sm">
             {corporateLinks.map(({ label, href }) => (
               <li key={href}>
-                <Link href={href} className="hover:text-blue-500 transition">
+                <Link href={href} className="hover:text-[#DF9958] transition">
                   {label}
                 </Link>
               </li>
@@ -85,7 +85,7 @@ const Footer = () => {
           <ul className="space-y-3 text-sm">
             {servicesLinks.map(({ label, href }) => (
               <li key={href}>
-                <Link href={href} className="hover:text-blue-500 transition">
+                <Link href={href} className="hover:text-[#DF9958] transition">
                   {label}
                 </Link>
               </li>

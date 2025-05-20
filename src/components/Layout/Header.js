@@ -31,7 +31,7 @@ const Header = () => {
           <ul className="hidden lg:flex col-start-4 col-end-8 items-center">
             {navLinks.map(({ id, label, href }) => (
               <li key={id}>
-                <Link href={href} className="px-4 py-2 mx-2 text-gray-300 hover:text-blue-500 transition-colors duration-300 capitalize">
+                <Link href={href} className="px-4 py-2 mx-2 text-gray-300 hover:text-[#DF9958] transition-colors duration-300 capitalize">
                   {label}
                 </Link>
               </li>
@@ -52,7 +52,7 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-gray-300">
             {navLinks.map(({ id, label, href }) => (
               <li key={id}>
-                <Link href={href} className="mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 border-transparent hover:text-blue-500 transition-all">
+                <Link href={href} className="mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 border-transparent hover:text-[#DF9958] transition-all">
                   <svg
                     className="w-6 h-6 mb-1"
                     fill="none"
