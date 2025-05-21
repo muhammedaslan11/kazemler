@@ -76,7 +76,7 @@ const Catalogs = () => {
                                         download
                                         className='inline-block self-start bg-[#DF9958] hover:bg-yellow-600 transition px-6 py-3 rounded-md text-white font-semibold shadow-md'
                                     >
-                                        Download
+                                        İndir
                                     </a>
                                 </div>
                             ))}
