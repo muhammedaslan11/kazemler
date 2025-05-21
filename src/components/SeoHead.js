@@ -9,7 +9,7 @@ const defaultMeta = {
   url: 'https://www.kazemler.com/',
   type: 'website',
   robots: 'follow, index',
-  image: '/images/kazemler_logo.png',
+  image: '/images/meta_image.png',
   author: ''
 };
 
