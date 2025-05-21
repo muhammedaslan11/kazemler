@@ -52,13 +52,11 @@ const SeoHead = (props) => {
       <meta property='og:url' content={`${meta.url}${router.asPath}`} />
       <link rel='canonical' href={`${meta.url}${router.asPath}`} />
       <link rel="icon" type="image/x-icon" href="/images/kazemler_favicon.png" />
-      {/* Open Graph */}
       <meta property='og:type' content={meta.type} />
       <meta property='og:site_name' content={meta.siteName} />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
       <meta name='image' property='og:image' content={meta.image} />
-      {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:site' content='@F2aldi' />
       <meta name='twitter:title' content={meta.title} />
@@ -79,17 +77,14 @@ const SeoHead = (props) => {
           />
         </>
       )}
-      {/* Favicons */}
       {favicons.map((linkProps) => (
         <link key={linkProps.href} {...linkProps} />
       ))}
-      {/* Windows 8 app icon */}
       <meta name='msapplication-TileColor' content='#F53838' />
       <meta
         name='msapplication-TileImage'
         content='/favicon/ms-icon-144x144.png'
       />
-      {/* Accent color on supported browser */}
       <meta name='theme-color' content='#F53838' />
     </Head>
   );

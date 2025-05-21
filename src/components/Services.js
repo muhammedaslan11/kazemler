@@ -6,41 +6,40 @@ import Button from "./common/Button";
 
 const plans = [
   {
-    name: "Web Services",
+    name: "Web Hizmetleri",
     image: "/images/web_service_white.png",
     href: "/services/web",
     features: [
-      "Corporate Website",
-      "SEO Friendly Structure",
-      "Mobile Responsive Design",
-      "Technical Support",
+      "Kurumsal Web Sitesi",
+      "SEO Uyumlu Yapı",
+      "Mobil Uyumlu Tasarım",
+      "Teknik Destek",
     ],
   },
   {
-    name: "Production - Export",
+    name: "Üretim - İhracat",
     image: "/images/export.png",
     href: "/services/export",
     features: [
-      "Product Supply Management",
-      "Export Process Tracking",
-      "Network of Manufacturers and Wholesalers",
-      "Logistics Consultancy",
-      "Product Research",
+      "Ürün Tedarik Yönetimi",
+      "İhracat Süreç Takibi",
+      "Üretici ve Toptancı Ağı",
+      "Lojistik Danışmanlığı",
+      "Ürün Araştırması",
     ],
   },
   {
-    name: "Consulting",
+    name: "Danışmanlık",
     image: "/images/consulting.png",
     href: "/services/consulting",
     features: [
-      "Market Research",
-      "Cosmetic Product Consultancy",
-      "Brand Development",
-      "And Much More...",
+      "Pazar Araştırması",
+      "Kozmetik Ürün Danışmanlığı",
+      "Marka Geliştirme",
+      "Ve Çok Daha Fazlası...",
     ],
   },
 ];
-
 
 const Services = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -54,13 +53,13 @@ const Services = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Services
+              Hizmetler
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              You can review the services we offer
+              Sunmuş olduğumuz hizmetleri inceleyebilirsiniz
             </motion.p>
           </ScrollAnimationWrapper>
 
@@ -92,7 +91,7 @@ const Services = () => {
                     ))}
                   </ul>
                   <div className="flex flex-col w-full justify-center mb-7 flex-none mt-5 lg:mt-12">
-                    <Button href={plan.href}>Detail</Button>
+                    <Button href={plan.href}>Detay</Button>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>

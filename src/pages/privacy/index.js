@@ -5,33 +5,35 @@ import Layout from '../../components/Layout/Layout';
 const Privacy = () => {
     const policies = [
         {
-            title: 'Data Collection',
-            description: 'We collect only the necessary data to provide better services and enhance your experience on our platform. This includes personal information, usage data, and communication preferences.'
+            title: 'Veri Toplama',
+            description: 'Platformumuzda daha iyi hizmet verebilmek ve deneyiminizi geliştirebilmek için yalnızca gerekli verileri topluyoruz. Bunlar kişisel bilgiler, kullanım verileri ve iletişim tercihlerini içerir.'
         },
         {
-            title: 'Data Usage',
-            description: 'Your data is used to improve our services, personalize your experience, and communicate important updates. We do not share your data with third parties without your consent.'
+            title: 'Veri Kullanımı',
+            description: 'Verileriniz, hizmetlerimizi iyileştirmek, deneyiminizi kişiselleştirmek ve önemli güncellemeleri iletmek için kullanılır. Verilerinizi izniniz olmadan üçüncü taraflarla paylaşmıyoruz.'
         },
         {
-            title: 'Data Protection',
-            description: 'We prioritize your privacy and take all necessary steps to protect your data from unauthorized access, breaches, and misuse.'
+            title: 'Veri Koruma',
+            description: 'Gizliliğinizi öncelikli tutuyor ve verilerinizi yetkisiz erişim, sızıntı ve kötüye kullanımdan korumak için tüm gerekli önlemleri alıyoruz.'
         },
         {
-            title: 'Your Rights',
-            description: 'You have the right to access, update, or delete your personal data at any time. Please contact us for any such requests.'
+            title: 'Haklarınız',
+            description: 'Kişisel verilerinize erişme, güncelleme veya silme hakkına sahipsiniz. Bu tür talepleriniz için lütfen bizimle iletişime geçin.'
         }
     ];
 
     return (
         <>
-            <SeoHead title={'Privacy Policies | KAZEMLER'} />
+            <SeoHead title={'Gizlilik Politikası | KAZEMLER'} />
             <Layout>
                 <div className='relative overflow-hidden text-white py-20 px-6'>
                     <div className='absolute inset-0 opacity-20 bg-cover bg-center' style={{ backgroundImage: 'url(/images/plazas.jpg)' }}></div>
                     <div className='relative max-w-5xl mx-auto text-center'>
-                        <h1 className='text-5xl font-extrabold my-6 animate-fade-in'>Privacy Policies</h1>
-                        <p className='text-xl leading-8 mb-10 animate-slide-up'>At <strong>KAZEMLER</strong>, we take your privacy seriously. Learn more about how we collect, use, and protect your personal information.</p>
-                        <img src='/images/cont.jpg' alt='Privacy' className='w-full h-auto rounded-2xl shadow-lg mb-10' />
+                        <h1 className='text-5xl font-extrabold my-6 animate-fade-in'>Gizlilik Politikası</h1>
+                        <p className='text-xl leading-8 mb-10 animate-slide-up'>
+                            <strong>KAZEMLER</strong> olarak gizliliğinize önem veriyoruz. Kişisel bilgilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi edinin.
+                        </p>
+                        <img src='/images/cont.jpg' alt='Gizlilik' className='w-full h-auto rounded-2xl shadow-lg mb-10' />
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 text-left animate-slide-up'>
                             {policies.map((policy, index) => (
                                 <div key={index} className='bg-white/5 p-6 rounded-2xl shadow-lg'>
@@ -40,7 +42,7 @@ const Privacy = () => {
                                 </div>
                             ))}
                         </div>
-                        <img src='/images/plazas.jpg' alt='Our Team' className='w-full h-auto rounded-2xl shadow-lg my-10' />
+                        <img src='/images/plazas.jpg' alt='Ekibimiz' className='w-full h-auto rounded-2xl shadow-lg my-10' />
                     </div>
                 </div>
             </Layout>

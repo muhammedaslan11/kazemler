@@ -13,7 +13,7 @@ export default function Contact() {
             <br />
             <br />
             <br />
-            <h1 className="text-5xl font-extrabold my-6 animate-fade-in text-center">Contact</h1>
+            <h1 className="text-5xl font-extrabold my-6 animate-fade-in text-center">İletişim</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
               <div>
                 <iframe
@@ -25,22 +25,23 @@ export default function Contact() {
                 ></iframe>
               </div>
               <div className="space-y-6 text-white">
-                <h2 className="text-2xl font-semibold">Contact Us</h2>
+                <h2 className="text-2xl font-semibold">Bize Ulaşın</h2>
                 <p className="text-lg">
-                  You can contact us using the information below.
+                  Aşağıdaki bilgiler üzerinden bizimle iletişime geçebilirsiniz.
                 </p>
                 <div className="space-y-2 text-base">
                   <p>
-                    <span className="font-semibold">Address:</span><br />
-                    Ayazağa District, Kemerburgaz Street, Informatics Valley Building, No: 7A, Floor: 7, 34396, Sarıyer / Istanbul
+                    <span className="font-semibold">Adres:</span><br />
+                    Ayazağa Mahallesi, Kemerburgaz Caddesi, Bilişim Vadisi Binası, No: 7A, Kat: 7, 34396, Sarıyer / İstanbul
                   </p>
                   <p>
-                    <span className="font-semibold">Phone:</span><br />
+                    <span className="font-semibold">Telefon:</span><br />
                     <a href="tel:+902122223344" className="text-blue-300 hover:underline">
-                      +90 532 411 06 64</a>
+                      +90 532 411 06 64
+                    </a>
                   </p>
                   <p>
-                    <span className="font-semibold">E-Mail:</span><br />
+                    <span className="font-semibold">E-Posta:</span><br />
                     <a href="mailto:info@kazemler.com" className="text-blue-300 hover:underline">
                       info@kazemler.com
                     </a>

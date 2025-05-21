@@ -28,8 +28,7 @@ const Hero = ({
 
   return (
     <React.Fragment>
-      {/* Banner Resmi */}
-      <div className="w-full h-[500px] sm:h-screen overflow-hidden" id="about">
+      <div className="w-full h-screen overflow-hidden" id="about">
         <img
           src="/images/export_banner.jpg"
           alt="Background"
@@ -37,7 +36,6 @@ const Hero = ({
         />
       </div>
 
-      {/* Yazılar - Bannerın Altında */}
       <div className="bg-black py-16 text-white text-center">
         <ScrollAnimationWrapper>
           <motion.div
@@ -55,7 +53,6 @@ const Hero = ({
         </ScrollAnimationWrapper>
       </div>
 
-      {/* Sayı Bilgileri */}
       <div className="relative z-20 mt-4">
         <ScrollAnimationWrapper className="rounded-lg w-full grid grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 z-10 max-w-screen-xl mx-auto">
           {listUser.map((item, index) => (

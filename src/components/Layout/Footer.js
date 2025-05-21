@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const Footer = () => {
   const corporateLinks = [
-    { label: "About Us", href: "/about" },
-    { label: "Catalogs", href: "/catalogs" },
-    { label: "Contact", href: "/contact" },
-    { label: "Privacy & KVKK", href: "/privacy" },
+    { label: "Hakkımızda", href: "/about" },
+    { label: "Kataloglar", href: "/catalogs" },
+    { label: "İletişim", href: "/contact" },
+    { label: "Gizlilik & KVKK", href: "/privacy" },
   ];
 
   const servicesLinks = [
-    { label: "Web Services", href: "/services/web" },
-    { label: "Production - Export", href: "/services/export" },
-    { label: "Consulting", href: "/services/consulting" },
+    { label: "Web Hizmetleri", href: "/services/web" },
+    { label: "Üretim - İhracat", href: "/services/export" },
+    { label: "Danışmanlık", href: "/services/consulting" },
   ];
 
   return (
@@ -38,9 +38,7 @@ const Footer = () => {
             </Link>
           </h2>
           <p className="text-sm leading-relaxed mb-6 shadow-lg">
-            Operating in the fields of consulting, production, and trade,
-            KAZEMLER is a pioneer in the industry with strong partnerships and
-            an innovative approach.
+            Danışmanlık, üretim ve ticaret alanlarında faaliyet gösteren KAZEMLER, güçlü iş ortaklıkları ve yenilikçi yaklaşımıyla sektörde öncüdür.
           </p>
           <div className="flex gap-3">
             <a
@@ -66,7 +64,7 @@ const Footer = () => {
 
         <div className="sm:col-span-3">
           <h3 className="text-xl font-semibold text-white mb-4 shadow-lg">
-            Corporate
+            Kurumsal
           </h3>
           <ul className="space-y-3 text-sm">
             {corporateLinks.map(({ label, href }) => (
@@ -81,7 +79,7 @@ const Footer = () => {
 
         <div className="sm:col-span-4">
           <h3 className="text-xl font-semibold text-white mb-4 shadow-lg">
-            Our Services
+            Hizmetlerimiz
           </h3>
           <ul className="space-y-3 text-sm">
             {servicesLinks.map(({ label, href }) => (
@@ -96,8 +94,7 @@ const Footer = () => {
       </div>
 
       <div className="relative mt-10 border-t pt-5 text-center text-sm shadow-lg">
-        © {new Date().getFullYear()} <strong className="text-white">KAZEMLER</strong>. All rights
-        reserved.
+        © {new Date().getFullYear()} <strong className="text-white">KAZEMLER</strong>. Tüm hakları saklıdır.
       </div>
     </footer>
   );
